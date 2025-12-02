@@ -1,0 +1,6 @@
+metric,value
+total_tickets,10.0
+tickets_fechados,10.0
+tickets_abertos,0.0
+avg_resolution_hours,110.6
+sla_compliance_pct,10.0

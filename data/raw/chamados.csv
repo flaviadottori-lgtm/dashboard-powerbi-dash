@@ -1,0 +1,11 @@
+id,responsavel,prioridade,status,data_abertura,data_fechamento,tempo_atendimento,descricao
+1,Ana Silva,Alta,Fechado,2025-11-01,2025-11-02,2,Erro na conexão
+2,João Souza,Média,Em andamento,2025-11-02,,,
+3,Marcos Lima,Alta,Fechado,2025-11-03,2025-11-03,1,Problema no login
+4,Ana Silva,Baixa,Fechado,2025-11-03,2025-11-05,6,Acesso negado
+5,Carla Mendes,Média,Fechado,2025-11-05,2025-11-06,3,Impressora não funciona
+6,João Souza,Alta,Fechado,2025-11-06,2025-11-06,2,Erro no sistema
+7,Ana Silva,Crítica,Em andamento,2025-11-07,,,
+8,Carla Mendes,Baixa,Fechado,2025-11-08,2025-11-10,8,Backup falhou
+9,Marcos Lima,Média,Fechado,2025-11-10,2025-11-12,10,Atualização necessária
+10,João Souza,Alta,Fechado,2025-11-12,2025-11-13,4,Layout quebrado
