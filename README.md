@@ -1,38 +1,32 @@
-# Analise de Dados — Dashboard (Dash)
+# Data Analysis — Interactive Dashboard with Dash
 
-Este repositório foi preparado para transformar seus CSVs em um dashboard interativo no estilo Power BI usando Dash (Plotly + Dash).
+This project demonstrates the development of an interactive data dashboard built with Python, Plotly, and Dash. The goal is to transform raw CSV files into clear and navigable visualizations, similar to BI tools such as Power BI, while keeping full control over the code and data pipeline.
 
-## O que inclui
-- Estrutura de projeto profissional
-- Dash app em `src/dashboard/app.py`
-- Scripts de carregamento e limpeza: `src/data/load_data.py`, `src/data/cleaning.py`
-- Dados originais em `data/raw/`
-- Dados processados em `data/processed/`
-- Exemplos de gráficos em `reports/screenshots/`
+## Objective
+To explore tabular data, apply basic preprocessing, and present key metrics and visual insights through a web-based interactive dashboard that supports analysis and decision-making.
 
-## Como rodar localmente
-1. Crie e ative um ambiente virtual:
+## Project Structure
+- `src/dashboard/app.py`: main Dash application
+- `src/data/load_data.py`: data loading logic
+- `src/data/cleaning.py`: basic data cleaning and standardization
+- `data/raw/`: original CSV files
+- `data/processed/`: cleaned data used by the dashboard
+- `reports/screenshots/`: examples of generated visualizations
+
+## Technologies Used
+- Python
+- Dash / Plotly
+- Pandas
+
+## Running Locally
+
+1. Create and activate a virtual environment:
 ```bash
 python -m venv venv
 # Linux / macOS
 source venv/bin/activate
 # Windows
 venv\Scripts\activate
-```
-2. Instale dependências:
-```bash
-pip install -r requirements.txt
-```
-3. Rode o app:
-```bash
-python src/dashboard/app.py
-```
-4. Abra `http://localhost:8050`
 
-## Observações
-- O app carrega os arquivos de `data/processed/`. Caso tenha novas versões dos CSVs, coloque em `data/raw/` e reexecute o processo de limpeza (ainda básico).
-- Os arquivos foram limpos de forma simples (padronização de nomes de colunas e tentativa de parse de datas). Ajustes específicos podem ser feitos em `src/data/cleaning.py`.
 
-## Para a candidatura Gupy
-Adicione prints do dashboard em `reports/screenshots` e atualize o README com um resumo do seu papel, tecnologias e insights principais. Posso ajudar a preparar esse texto com tom profissional.
 
